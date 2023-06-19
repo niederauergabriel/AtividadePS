@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+    margin: 0;
+    font-family: Indie Flower;
+    background-image: url(https://media.tenor.com/7ayP6ZJJ6JYAAAAC/rx7-integra.gif) ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    text-size-adjust: center;
+    font-size: 66px;
+    color: rgb(255, 217, 0);
+    border-bottom: 1px solid black;
+    margin-bottom: 250px;
+    box-shadow: 0 0 15px 15px rgb(255, 217, 0);
+    background-image: url(https://thumbs.gfycat.com/AjarUntidyGilamonster-mobile.mp4);
+    /* Propriedades para manipular imagens de fundo*/
+}
+
+fieldset {
+    width: 50%;
+    margin: 30px auto;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgba(185, 185, 185, 0.281);
+}
+
+label.alinha {
+    width: 300px;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    margin: auto;   
+    margin-top: 20px;
+    display: block;
+    font-family: Indie Flower;
+    font-size: 10px;
+}
+
+input[name="nome-aluno"] {
+    width: 300px;
+}
+
+p {
+    border: rgba(red, green, blue, alpha);
+    text-align: center;
+    margin: 20px;
+    visibility: hidden; /*esconde o paragrafo, quando ele é inicialmente mostrado na pagina*/
+}
+
+span {
+    font-weight: bold;
+    color: #003520;
+}
+
+p.mostra
+{
+    visibility: visible; /*mostra o paragrafo, inicialmente oculto*/
+}
